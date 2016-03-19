@@ -266,6 +266,10 @@ h1 {
     transition: all 2s ease;
     transform:translateY(300px);
 }
+.speech-2,.speech-3,.speech-4{
+ transition: all 2s ease;
+    transform: translateY(300px)
+}
 .speech-1 {
     background: url(../images/conversation-speech-1.png) no-repeat center center;
     background-size: 133px 73px;
@@ -277,6 +281,7 @@ h1 {
     display: block;
     float: left;
     overflow: hidden;
+    transform:translateY(300px);
 }}
 @media (min-width: 768px){
 .speech-1 {
